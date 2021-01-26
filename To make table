@@ -1,1 +1,6 @@
+number = int(input("Table of: ")) #to take input from user
 
+for value in range(0,11):
+             multiply=value*int(number)
+             line=str(number)+"x"+str(value)+"="+str(multiply)
+             print(line)
