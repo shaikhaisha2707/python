@@ -1,0 +1,20 @@
+
+###TO CREATE A FILE###
+f=open("sample.txt","x")
+
+
+###TO WRITE SOMETHING IN THE FILE###
+f=open("sample.txt","w")
+f.write("This is just to test.")
+f.close()
+
+
+###TO APPEND IN THE FILE###
+f=open("sample.txt","a")
+f.write("\nThis is to test the append method")
+f.close()
+
+
+###TO DELETE FILE###
+import os
+os.remove("file.txt")
