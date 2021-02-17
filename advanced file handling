@@ -13,3 +13,21 @@ h=open("sample.txt","w")
 content=("This is to test file handling.\n lets hope for the output")
 h.write(content)
 h.close()
+
+
+### TO COPY THE CONTENT FROM ONE FILETO ANOTHER### 
+with open ("sample.txt","r") as f:             #THE CONTENT WILL BE COPIED FROM SAMPLE.TXT 
+    with open ("d:\demofile","w") as wf:       #A NEW FILE NAMED DEMOFILE WILL BE CREATED IN 'D' DRIVE
+        for line in f:                         
+            wf.write(line)
+            
+            
+###TO COPY IMAGE###            
+with open ("L.jpg","rb") as f:
+    with open("Lcopy.jpg","wb") as wf:
+        for line in f:
+            wf.write(line)      
+            
+            
+           
+  
