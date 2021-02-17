@@ -1,0 +1,6 @@
+
+###TO READ AN EXISTING FILE BY STORING IT IN A VARIABLE AND GETTING THE OUTPUT ON CONSOLE###
+b=open("sample.txt","r")
+text=b.read()
+print("\n output \n",text)
+b.close()
