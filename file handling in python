@@ -1,6 +1,8 @@
 
 ###TO CREATE A FILE###
 f=open("sample.txt","x")
+### OR TO CREATE A PYTHON FILE###
+f=open("sample.py","x")
 
 
 ###TO WRITE SOMETHING IN THE FILE###
