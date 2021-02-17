@@ -4,3 +4,12 @@ b=open("sample.txt","r")
 text=b.read()
 print("\n output \n",text)
 b.close()
+
+
+###TO WRITE IN AN EXISTING FILE###
+### NOTE: THE GIVEN CONTENT WILL BE OVER WRITTEN BY DELETING THE ALREADY EXISTING CONTENT IN THE FILE.
+TO AVOID THIS USE THE APPEND KEYWORD###
+h=open("sample.txt","w")
+content=("This is to test file handling.\n lets hope for the output")
+h.write(content)
+h.close()
